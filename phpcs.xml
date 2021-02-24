@@ -164,6 +164,10 @@
 		</properties>
 	</rule>
 
+	<rule ref="SlevomatCodingStandard.Variables.UnusedVariable.UnusedVariable">
+		<exclude-pattern>tests/Integration/DocsTest.php</exclude-pattern>
+	</rule>
+
 	<rule ref="SlevomatCodingStandard.Whitespaces.DuplicateSpaces.DuplicateSpaces">
 		<exclude-pattern>src/Db/Result.php</exclude-pattern>
 	</rule>
